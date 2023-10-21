@@ -1,0 +1,13 @@
+@media screen and (min-width:480px) {
+    .container{
+      max-width: 448px; 
+    } 
+    .hero-container{
+        max-width: 100%;
+    }
+    .hero-desc{
+        max-width: 320px;
+      }
+      
+  } 
+  

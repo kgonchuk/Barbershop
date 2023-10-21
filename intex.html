@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    <title>Barbershop</title>
+</head>
+<body> 
+    <header class="header">
+        <div class="container header-container">
+            <a href="/" class="header-logo">
+                <img src="./img/logo.svg" alt="Logo site" />
+            </a>
+            <button
+          class="menu-toggle-open js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="24"
+            height="24"
+            fill="black"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+            <div class="header-nav-wrap">
+                
+            <nav class="header-navigation">
+               
+                <ul class="header-list list">
+                    <li class="header-item">
+                        <a href="#" class="header__link header__link--active link">About</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#" class="header__link header__link--active link">Services and prices</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#" class="header__link header__link--active link">Barbers</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#contact" class="header__link header__link--active link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+             <button
+          class="menu-toggle-open js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="24"
+            height="24"
+            fill="black"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+            <div class="header-contact">
+                <a href="tel:+380441111111" class="header-tel link">+38 044 111 11 11</a>
+            <button type="button" data-modal="1" class="header-btn btn js-open-modal"  >Online-booking</button>  
+            </div>
+        </div>
+          
+        </div>
+    </header> 
+    
+    
+    <main>
+        <!-- Hero -->
+         <section class="hero">
+            <div class="container hero-container"> 
+                <div class="hero-list-wrap">
+                <ul class="hero-list list">
+             
+            <li class="hero-item"><a target="_blank" rel="noopener noreferrer nofollow" href="" class="hero-link link ">Instagram</a></li>
+            <li class="hero-item"><a target="_blank" rel="noopener noreferrer nofollow" href="" class="hero-link link">Youtube</a></li>
+        </ul>
+    </div>
+           <div class="hero-content">
+            <p class="hero-text subtitle">A hair salon for men in Kyiv</p>
+            <h1 class="hero-title">BarberShop</h1>
+            <p class="hero-desc"> We are experts in trendy men’s haircuts.
+                We work quickly, carefully and with style. </p></div>
+            </div>
+           
+               
+            
+               
+                
+        </section> 
+        <!-- About -->
+        <section class="about">
+            <div class="container about-container">
+                
+            <ul class="about-list">
+            <li class="about-item">
+                <picture>
+                <source srcset="./img/img-1.jpg 1x, ./img/about-1-desctop@2.jpg 2x"
+                media="(min-width: 1200px)"/>
+                <source srcset="./img/about-1-tablet.jpg 1x, ./img/about-1-tablet@2.jpg 2x"
+                media="(min-width: 768px)"
+              />
+
+<img src="./img/img-1.jpg" alt="barber1" width="270" height="445" >
+                </picture> 
+               </li>
+            <li class="about-item">
+                <picture>
+                 <source srcset="./img/img-2.jpg 1x, ./img/about-2-desctop@2.jpg 2x" media="(min-width:1200px)"/>
+                <source srcset="./img/about-2-tablet.jpg 1x, ./img/about-2-tablet@2x.jpg 2x" media="(min-width:767px)">
+                <img src="./img/img-2.jpg" alt="barber2" width="270" height="445">
+            </picture>
+                </li>            </ul>
+            
+            <div class="about-content">
+            <p class="about-text subtitle">About</p>
+            <h2 class="about-title">Best Barbershop in your city</h2>
+            <p class="about-desc"><span class="about-desc-span">If you want to add more confidence to your image, you should definitely visit us.</span>
+                We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with clients. Therefore, we are always ready to improve everyone who comes to us!</p>
+                <button type="button" data-modal="2" class="about-btn js-open-modal">ONLINE-BOOKING</button> 
+            </div></div>
+        </section> 
+        <!-- Prices -->
+        <section class="prices">
+            <div class="container">
+            <p class="prices-text subtitle">Spend your time with the best masters</p>
+            <h2 class="prices-title">Services and prices</h2>
+            
+            <div class="prices-content">
+            <ul class="prices-list">                
+                <li class="prices-item"><p class="prices-item-text">Men’s haircut</p>
+                    <p class="prices-item-text">from 300 uah.</p>
+            </li>
+            <li class="prices-item">
+                <p class="prices-item-text">Beard trim</p>
+            <p class="prices-item-text">from 300 uah.</p>
+        </li>
+            <li class="prices-item"><p class="prices-item-text">Mustache trim</p>
+            <p class="prices-item-text">from 200 uah.</p>
+        </li>
+
+            <li class="prices-item">
+                <p class="prices-item-text">Straight razor shave</p>
+            <p class="prices-item-text">from 200 uah.</p>
+        </li class="prices-item"> </ul>
+<ul class="prices-list">
+            <li class="prices-item">
+                <p class="prices-item-text">Trainee’s haircut</p>
+            <p class="prices-item-text">from 50 uah.</p>
+        </li>
+            <li class="prices-item"><p class="prices-item-text">Haircut under the nozzle</p>
+            <p class="prices-item-text">from 200 uah.</p></li>
+            <li class="prices-item">
+                <p class="prices-item-text">Children’s haircut (0-12 y.o.)</p>
+            <p class="prices-item-text">from 300 uah.</p>
+        </li>
+            <li class="prices-item"><p class="prices-item-text">Camouflage of gray hair</p>
+            <p class="prices-item-text">from 200 uah.</p>
+        </li>
+   </ul></div>
+    <button type="button" class="prices-btn js-open-modal" data-modal="3">online-booking</button>
+</div>
+        </section>
+        <!-- Feature -->
+        <section class="feature">
+            <div class="container feature-container">
+                <div class="feature-content">
+                    <p class="feature-text subtitle">Old traditional school</p>
+                    <h2 class="feature-title">¿Why people come to us?</h2>
+                    <p class="feature-desc">Only good things are said about us. But it's better to see and feel 1 time than read 10 times. </p>
+                      </div>
+                    </div>
+<div class="feature-number-content">
+    <ul class="feature-item">
+                <li class="feature-list">
+                <span class="feature-span">600</span>
+                <p class="feature-list-desc" >Satisfied customers per day</p>
+            </li>
+            <li class="feature-list">
+                <span class="feature-span">50</span>
+                <p class="feature-list-desc">Awards for excellent service</p>
+            </li>
+            <li class="feature-list">
+                <span class="feature-span">20</span>
+                <p class="feature-list-desc">Kyiv’s best barbers</p>
+            </li>
+            <li class="feature-list">
+                <span class="feature-span">100</span>
+                <p class="feature-list-desc">Gifts for regular customers</p>
+            </li>
+        </ul></div>
+            
+        
+        </section>
+        <!-- Our team -->
+        <section class="our-team container-sm">
+            <div class="container">
+            <p class="our-team-text subtitle">For true enjoyers of the atmosphere</p>
+            <h2 class="our-teeam-title">Our barbers</h2>
+            <ul class="our-team-list">
+                <li class="our-team-item">
+                    <picture>
+                        <source srcset="./img/barber-1.jpg 1x, ./img/barber-1-desctop@2.jpg 2x" media="(min-width:1200px)"/>
+                       <source srcset="./img/barber-1-tablet.jpg 1x, ./img/barber-1-tablet@2x.jpg 2x" media="(min-width:767px)">
+                       <source srcset="./img/barber-1-mobile.jpg 1x, ./img/barber-1-mobile@2x.jpg 2x" media="(min-width:479px)">
+                       <img src="./img/barber-1.jpg" alt="barber work" width="370px" height="346px">
+                   </picture>
+                
+                <div class="our-team-content"> 
+                    <h3 class="our-team-item-title">John Smith</h3><div class=""></div>
+                <p class="our-team-item-text">Extreme Barber</p></div>
+               <ul class="team-social-list" >
+                <li class="team-social-item">
+                    <a href="" class="team-social-link link">
+                        <svg class="team-social-icon" width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+               <li class="team-social-item"><a href="" class="team-social-link link">
+                <svg class="team-social-icon" width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+            </a></li>
+               <li class="team-social-item"><a href="" class="team-social-link link">
+                <svg class="team-social-icon" width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-fb"></use>
+                </svg>
+            </a></li>
+            <li class="team-social-item"><a href="" class="team-social-link link">
+                    <svg class="team-social-icon" width="20" height="20">
+                        <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                </a></li></ul>
+            </li>
+            <li class="our-team-item">
+                <picture>
+                    <source srcset="./img/barber-2.jpg 1x, ./img/barber-2-desctop@2.jpg 2x" media="(min-width:1200px)"/>
+                   <source srcset="./img/barber-2-tablet.jpg 1x, ./img/barber-2-tablet@2x.jpg 2x" media="(min-width:767px)">
+                   <source srcset="./img/barber-2-mobile.jpg 1x, ./img/barber-2-mobile@2x.jpg 2x" media="(min-width:479px)">
+                   <img src="./img/barber-2.jpg" alt="barber work"width="370px" height="346px">
+               </picture>
+              
+                <div class="our-team-content"> 
+                    <h3 class="our-team-item-title">Michele Doe</h3>
+                <p class="our-team-item-text">Extreme Barber</p>
+            </div>
+                <ul class="team-social-list">
+                    <li class="team-social-item">
+                        <a href="" class="team-social-link link">
+                            <svg class="team-social-icon" width="20" height="20">
+                                <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team-social-item"><a href="" class="team-social-link link">
+                            <svg class="team-social-icon" width="20" height="20">
+                                <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </a></li>
+                    <li class="team-social-item"><a href="" class="team-social-link link">
+                            <svg class="team-social-icon" width="20" height="20">
+                                <use href="./img/symbol-defs.svg#icon-fb"></use>
+                            </svg>
+                        </a></li>
+                    <li class="team-social-item"><a href="" class="team-social-link link">
+                            <svg class="team-social-icon" width="20" height="20">
+                                <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a></li>
+                </ul>
+                </li>
+            </li>
+            <li class="our-team-item">
+                <picture>
+                    <source srcset="./img/barber-3.jpg 1x, ./img/barber-3-desctop@2.jpg 2x" media="(min-width:1200px)"/>
+                   <source srcset="./img/barber-3-tablet.jpg 1x, ./img/barber-3-tablet@2x.jpg 2x" media="(min-width:767px)">
+                   <source srcset="./img/barber-3-mobile.jpg 1x, ./img/barber-3-mobile@2x.jpg 2x" media="(min-width:479px)">
+                   <img src="./img/barber-3.jpg" alt="barber work"width="370px" height="346px">
+               </picture>
+                
+                <div class="our-team-content"> 
+                    <h3 class="our-team-item-title">Alan Black</h3>
+                <p class="our-team-item-text">Extreme Barber</p></div>
+                <ul class="team-social-list">
+                    <li class="team-social-item">
+                        <a href="" class="team-social-link link">
+                            <svg class="team-social-icon" width="20" height="20">
+                                <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team-social-item"><a href="" class="team-social-link link">
+                            <svg class="team-social-icon" width="20" height="20">
+                                <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </a></li>
+                    <li class="team-social-item"><a href="" class="team-social-link link">
+                            <svg class="team-social-icon" width="20" height="20">
+                                <use href="./img/symbol-defs.svg#icon-fb"></use>
+                            </svg>
+                        </a></li>
+                    <li class="team-social-item"><a href="" class="team-social-link link">
+                            <svg class="team-social-icon" width="20" height="20">
+                                <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a></li>
+                </ul>
+                </li>
+            </li>
+            </ul>
+        </div>
+        </section>
+        <!-- section  gallery-->
+        <section class="gallery">
+            <div class="container">
+            <p class="gallery-text subtitle">In Latin, "barba" means "beard"</p>
+            <h2 class="gallery-visually-hidden"></h2>
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <picture>
+                            <source srcset="./img/Rectangle-25.jpg 1x, ./img/Rectangle25@2.jpg 2x" media="(min-width:1200px)"/>
+                           <source srcset="./img/gallery-1-tablet.jpg 1x, ./img/gallery-1-tablet@2x.jpg 2x" media="(min-width:767px)">
+                           <source srcset="./img/gallery-1-mobile.jpg 1x, ./img/gallery-1-mobile@2x.jpg 2x" media="(min-width:479px)">
+                           <img src="./img/Rectangle-25.jpg" alt="Gallery-img"width="270px" height="360px">
+                       </picture>
+                    </li> 
+                <li class="gallery-item">
+                    <picture>
+                        <source srcset="./img/Rectangle-26.jpg 1x, ./img/Rectangle26@2.jpg 2x" media="(min-width:1200px)"/>
+                       <source srcset="./img/gallery-2-tablet.jpg 1x, ./img/gallery-2-tablet@2x.jpg 2x" media="(min-width:767px)">
+                       <source srcset="./img/gallery-2-mobile.jpg 1x, ./img/gallery-2-mobile.@2x.jpg 2x" media="(min-width:479px)">
+                       <img src="./img/Rectangle-26.jpg" alt="Gallery-img"width="270px" height="360px">
+                   </picture>
+                   </li>
+                <li class="gallery-item">
+                    <picture>
+                        <source srcset="./img/Rectangle-27.jpg 1x, ./img/Rectangle27@2.jpg 2x" media="(min-width:1200px)"/>
+                       <source srcset="./img/gallery-3-tablet.jpg 1x, ./img/gallery-3-tablet.@2x.jpg 2x" media="(min-width:767px)">
+                       <source srcset="./img/gallery-3-mobile.jpg 1x, ./img/gallery-3-mobile@2x.jpg 2x" media="(min-width:479px)">
+                       <img src="./img/Rectangle-27.jpg" alt="Gallery-img"width="270px" height="360px">
+                   </picture>
+                   </li>
+                <li class="gallery-item">
+                    <picture>
+                        <source srcset="./img/Rectangle-28.jpg 1x, ./img/Rectangle28@2.jpg 2x" media="(min-width:1200px)"/>
+                       <source srcset="./img/gallery-4-tablet.jpg 1x, ./img/gallery-4-tablet@2x.jpg 2x" media="(min-width:767px)">
+                       <source srcset="./img/gallery-4-mobile.jpg 1x, ./img/gallery-4-mobile@2x.jpg 2x" media="(min-width:479px)">
+                       <img src="./img/Rectangle-28.jpg" alt="Gallery-img"width="270px" height="360px">
+                   </picture>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Section Contacts -->
+        <section class="contacts">
+            
+            <div class="container-contacts container">
+                <div class="online-booking-container">
+                    <h2 class="online-title">Online-booking</h2>
+                <form class="modal-booking"> 
+                    <div class="booking-modal-wrap">
+                    <label for="" class="modal-booking-name">
+                        <input type="text" 
+                        placeholder="NAME*"
+                        name="user_name"
+                        class="modal-booking-input"
+                        required
+                        pattern="^[a-zA-Zа-яА-Я]+"
+                        minlength="2"> 
+                    </label>
+                    <label for="" class="modal-booking-phone">
+                        <input type="tel" 
+                        placeholder="PHONE*"
+                        name="user_phone"
+                        class="modal-booking-input"
+                        required
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                    title="xxx-xxx-xx-xx">    
+                    </label>
+                </div>
+                    <label class="modal-booking-field">
+                       <textarea 
+                       name="user_message" 
+                       class="modal-booking-input-message" 
+                       placeholder="MESSAGE"></textarea>
+                    </label>
+                    <button type="submit" class="modal-booking-submit">Send</button>
+                </form>
+            </div>
+
+
+<div class="contact-container">
+                <h2 class="contacts-title title">Contacts</h2>
+                    <div class="contact-wrap">
+           
+            <div class="contacts-wrapper">
+                <address class="contact-address">
+                <ul class="address-list">
+                    <li class="address-item-link"> <svg class="address-social-icon" width="6" height="6"> <use href="./img/symbol-defs.svg#icon-map-pin"></use></svg><a href="https://goo.gl/maps/M87mnfiExiKKyYhc7" class="address-link link" target="_blank" rel="nooponer noreferrer nofolow">st. Vasilkivska, 7A Kyiv, 08132</a> </li>
+                <li class="address-item-tel"> <svg class="address-social-icon" width="6" height="6">
+                    <use href="./img/symbol-defs.svg#icon-phone"></use> </svg> <a href="tel:+380441111111" class="address-link-tel link">+38 044 111 11 11</a></li>
+                <li class="address-item-mail"><svg class="address-social-icon" width="6" height="6">
+                    <use href="./img/symbol-defs.svg#icon-mail"></use>
+                </svg><a href="mailto:barbershop@email.com" class="address-link-mail link">barbershop@email.com</a></li></ul>
+            </address>
+        </div>
+            <div class="working-time">
+                <h3 class="contact-desc subtitle">Working hours</h3>
+            <p class="contact-text" >Every day from 9:00 to 22:00</p></div>
+        </div>
+    </div>
+    </div>
+       
+    </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-content">
+        <p class="copyright">&copy;Copyright 2020</p>
+        <ul class="footer-list">
+            <li class="footer-item"> <a href="" target="_blank" rel="noopener nofollow noreferrer" class="footer-link link">Instagram</a></li>
+        <li class="footer-item"> <a href="" target="_blank" rel="noopener nofollow noreferrer" class="footer-link link">Youtube</a></li>
+    </ul></div>
+    </footer>
+
+
+
+    <div class="modal" data-modal="1">
+        <!--   Svg иконка для закрытия окна  -->
+        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+        <form class="modal-form">
+            <p class="modal-form-title">Leave your contacts and we will call you back</p>
+            <label class="modal-form-label">
+                <input type="text" 
+                name="user_name" 
+                class="modal-form-input" 
+                required 
+                pattern="^[a-zA-Zа-яА-Я]+$"
+                 minlength= "2"
+                 placeholder="Name">
+                 
+            </label>
+            <label class="modal-form-label">
+                <input type="tel" 
+                name="user_tel" 
+                class="modal-form-input" 
+                required 
+                pattern="^[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+                placeholder="+38">
+                
+            </label>
+            <label class="modal-form-label">
+                <input type="text" name="user_mail" class="modal-form-input" required placeholder="E-mail">
+            </label>
+            <div class="modal-select">
+                <label for="" class="modal-label-title">Choose you city</label>
+                <select name="cities" id="city">
+                    <option value="kyiv">Kyiv</option>
+                    <option value="lviv">Lviv</option>
+                    <option value="odessa">Odessa</option>
+                </select>
+            </div>
+            <label class="modal-form-label">
+                <textarea 
+                name="user_message" 
+                class="modal-form-message" 
+                placeholder="Your message"></textarea>
+            </label>
+            
+        <button type="submit" class="modal-form-submit">Send</button>
+        </form>
+        
+     </div>
+     <div class="modal" data-modal="2">
+        <!--   Svg иконка для закрытия окна  -->
+        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+        <form class="modal-form">
+            <p class="modal-form-title">Leave your contacts and we will call you back</p>
+            <label class="modal-form-label">
+                <input type="text" 
+                name="user_name" 
+                class="modal-form-input" 
+                required 
+                pattern="^[a-zA-Zа-яА-Я]+$"
+                 minlength= "2"
+                 placeholder="Name">
+                 
+            </label>
+            <label class="modal-form-label">
+                <input type="tel" 
+                name="user_tel" 
+                class="modal-form-input" 
+                required 
+                pattern="^[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+                placeholder="+38">
+                
+            </label>
+            <label class="modal-form-label">
+                <input type="text" name="user_mail" class="modal-form-input" required placeholder="E-mail">
+            </label>
+            <div class="modal-select">
+                <label for="" class="modal-label-title">Choose you city</label>
+                <select name="cities" id="city">
+                    <option value="kyiv">Kyiv</option>
+                    <option value="lviv">Lviv</option>
+                    <option value="odessa">Odessa</option>
+                </select>
+            </div>
+            <label class="modal-form-label">
+                <textarea 
+                name="user_message" 
+                class="modal-form-message" 
+                placeholder="Your message"></textarea>
+            </label>
+            
+        <button type="submit" class="modal-form-submit">Send</button>
+        </form>
+        
+     </div>
+     <div class="modal" data-modal="3">
+        <!--   Svg иконка для закрытия окна  -->
+        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+        <form class="modal-form">
+            <p class="modal-form-title">Leave your contacts and we will call you back</p>
+            <label class="modal-form-label">
+                <input type="text" 
+                name="user_name" 
+                class="modal-form-input" 
+                required 
+                pattern="^[a-zA-Zа-яА-Я]+$"
+                 minlength= "2"
+                 placeholder="Name">
+                 
+            </label>
+            <label class="modal-form-label">
+                <input type="tel" 
+                name="user_tel" 
+                class="modal-form-input" 
+                required 
+                pattern="^[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+                placeholder="+38">
+                
+            </label>
+            <label class="modal-form-label">
+                <input type="text" name="user_mail" class="modal-form-input" required placeholder="E-mail">
+            </label>
+            <div class="modal-select">
+                <label for="" class="modal-label-title">Choose you city</label>
+                <select name="cities" id="city">
+                    <option value="kyiv">Kyiv</option>
+                    <option value="lviv">Lviv</option>
+                    <option value="odessa">Odessa</option>
+                </select>
+            </div>
+            <label class="modal-form-label">
+                <textarea 
+                name="user_message" 
+                class="modal-form-message" 
+                placeholder="Your message"></textarea>
+            </label>
+            
+        <button type="submit" class="modal-form-submit">Send</button>
+        </form>
+        
+     </div>
+
+
+     <!-- mobile-menu -->
+     
+       <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+            <svg class="mobile-menu-close-icon"
+              fill="black"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+          <ul class="header-list list">
+            <li class="header-item">
+                <a href="#" class="header__link header__link--active link">About</a>
+            </li>
+            <li class="header-item">
+                <a href="#" class="header__link header__link--active link">Services and prices</a>
+            </li>
+            <li class="header-item">
+                <a href="#" class="header__link header__link--active link">Barbers</a>
+            </li>
+            <li class="header-item">
+                <a href="#contact" class="header__link header__link--active link">Contacts</a>
+            </li>
+        </ul>
+        <div class="header-contact">
+            <a href="tel:+380441111111" class="header-tel link">+38 044 111 11 11</a>
+        <button type="button" data-modal="1" class="header-btn btn js-open-modal"  >Online-booking</button>  
+        </div>
+
+       </div>
+    
+     <div class="overlay js-overlay-modal"></div>
+    <script src="./js/modal.js"></script>
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="./js/mobile-menu.js"></script>
+  <script src="./js/modal.js"></script>
+</body>
+</html>
+
