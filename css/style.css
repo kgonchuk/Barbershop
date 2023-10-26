@@ -536,12 +536,13 @@ top: 7px;
 flex-direction: row-reverse;
 }
 .feature-item{
-  width: 45%;
+  min-width: 440px;
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
   padding-left: 70px;
   padding-right: 70px;
+  
 }
 
 .feature-list-desc{

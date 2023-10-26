@@ -140,6 +140,11 @@
   .feature {
     padding: 100px 0;
   }
+  .feature-item {
+    max-width: 690px;
+    margin-top: 30px;
+    justify-content: end;
+  }
   .about-content {
     width: 50%;
     max-width: 470px;
